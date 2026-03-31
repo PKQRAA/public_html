@@ -1,0 +1,38 @@
+# FutureX Digital Marketing - futurexdigitalmarketing.com
+# robots.txt for SEO and AI Search Optimization
+
+User-agent: *
+Allow: /
+
+# AI Crawlers - Allow for AI Search
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# Block bad bots (optional)
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+# Sitemap locations
+Sitemap: https://www.futurexdigitalmarketing.com/sitemap.xml
+Sitemap: https://www.futurexdigitalmarketing.com/sitemap.xml
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1
